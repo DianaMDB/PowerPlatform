@@ -35,6 +35,6 @@ Click on + New custom connector in the top right menu and select  "Import from G
 <img width="261" alt="Screenshot 2022-05-24 at 6 54 50 PM" src="https://user-images.githubusercontent.com/101181433/170047186-c2b92de9-6451-43ca-8a28-afa746d855d4.png">
 
 
-Choose "Certified" radio button , Branch as "master" and choose connector "Mongodb" from the dropdown.
+Choose "Certified" radio button , Branch as "master" and choose connector "MongoDB" from the dropdown.
 
 <img width="607" alt="Screenshot 2022-05-24 at 6 57 41 PM" src="https://user-images.githubusercontent.com/101181433/170049206-c2cbb534-d311-4828-a14e-7e143ed76af7.png">
