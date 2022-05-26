@@ -8,8 +8,8 @@ Get started by creating a [MongoDB Atlas Account](https://www.mongodb.com/cloud/
 ## Supported Operations
 Perform CRUD operations and aggregations on your data in minutes
 
-## Obtaining Credentials
-For authentication, you need to use an API Key. To get a API key, follow the steps provided in the below section
+## Authentication
+To authorise the request and obtain access to the underlying data, you need to use an API Key. To create an API key, follow the steps provided in the below section
 
 ## Pre-requisites for Using the Connector
 1. [Enable the Data API](https://www.mongodb.com/docs/atlas/api/data-api/#1.-enable-the-data-api)
