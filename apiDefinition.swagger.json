@@ -71,9 +71,9 @@
                 }
               },
               "default": {
-                "dataSource": "",
-                "database": "",
-                "collection": "",
+                "dataSource": "{{DATA_SOURCE}}",
+                "database": "{{DATABASE}}",
+                "collection": "{{COLLECTION}}",
                 "document": {}
               }
             },
@@ -199,17 +199,24 @@
                   "type": "string",
                   "description": "collection"
                 },
-                "document": {
+                "filter": {
                   "type": "object",
-                  "properties": {},
-                  "description": "document"
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "description": "name"
+                    }
+                  },
+                  "description": "filter"
                 }
               },
               "default": {
-                "dataSource": "",
-                "database": "",
-                "collection": "",
-                "document": {}
+                "dataSource": "{{DATA_SOURCE}}",
+                "database": "{{DATABASE}}",
+                "collection": "{{COLLECTION}}",
+                "filter": {
+                "name": "John Sample"
+                }
               }
             },
             "required": true
@@ -309,17 +316,24 @@
                   "type": "string",
                   "description": "collection"
                 },
-                "document": {
+                "filter": {
                   "type": "object",
-                  "properties": {},
-                  "description": "document"
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "description": "name"
+                    }
+                  },
+                  "description": "filter"
                 }
               },
               "default": {
-                "dataSource": "",
-                "database": "",
-                "collection": "",
-                "document": {}
+                "dataSource": "{{DATA_SOURCE}}",
+                "database": "{{DATABASE}}",
+                "collection": "{{COLLECTION}}",
+                "filter": {
+                "name": "John Sample"
+                }
               }
             },
             "required": true
