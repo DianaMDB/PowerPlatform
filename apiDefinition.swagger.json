@@ -22,30 +22,6 @@
         "operationId": "InsertDocument",
         "parameters": [
           {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "application/json",
-            "description": "Content-Type"
-          },
-          {
-            "name": "api-key",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "",
-            "description": "api-key"
-          },
-          {
-            "name": "Access-Control-Request-Headers",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "*",
-            "description": "Access-Control-Request-Headers"
-          },
-          {
             "name": "body",
             "in": "body",
             "schema": {
@@ -158,30 +134,6 @@
         "operationId": "DeleteDocument",
         "parameters": [
           {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "application/json",
-            "description": "Content-Type"
-          },
-          {
-            "name": "Access-Control-Request-Headers",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "*",
-            "description": "Access-Control-Request-Headers"
-          },
-          {
-            "name": "api-key",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "",
-            "description": "api-key"
-          },
-          {
             "name": "body",
             "in": "body",
             "schema": {
@@ -274,30 +226,6 @@
         "description": "Using the `/findOne` endpoint will let you retrieve a single document from a collection. Use the `filter` property in the request body to specify the search criteria. If more than one document matches the criteria, only the first match will be returned.",
         "operationId": "FindDocument",
         "parameters": [
-          {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "application/json",
-            "description": "Content-Type"
-          },
-          {
-            "name": "api-key",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "",
-            "description": "api-key"
-          },
-          {
-            "name": "Access-Control-Request-Headers",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "*",
-            "description": "Access-Control-Request-Headers"
-          },
           {
             "name": "body",
             "in": "body",
