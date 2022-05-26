@@ -32,7 +32,12 @@ Choose "Certified" radio button , Branch as "master" and choose connector "Mongo
 
 <img width="607" alt="Screenshot 2022-05-24 at 6 57 41 PM" src="https://user-images.githubusercontent.com/101181433/170049206-c2cbb534-d311-4828-a14e-7e143ed76af7.png">
 
-## Known Issues and Limitations
+## Changes required in the Connector
+1. In the Base URL field in the General tab, replace the placeholder **"_Data API App ID_"** with the App ID from the URL endpoint under **Data API** tab in Atlas.  
+2. For some APIs whcih expect a Json response , the layout/sample of the json needs to be added using the **"Import from Sample"** option for the Response under the **Definition** tab.
+
+## Known Limitations
 
 1. Data API logs all requests and stores the logs for 30 days.They can be viewed from the **Data API** screen in the **Logs** tab
 2. The Data API has restrictions in terms of the size of the Request and the Response body and the response time which is detailed [here](https://www.mongodb.com/docs/atlas/api/data-api/#request-limitations)
+
