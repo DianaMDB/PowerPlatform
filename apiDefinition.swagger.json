@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "MongoDB Data API",
+    "title": "MongoDB",
     "description": "MongoDB Data API\nhttps://www.mongodb.com/data-api/ \n\nThe Data API provides you with a REST access to your data in MongoDB Atlas(https://www.mongodb.com/atlas), \nthe database-as-a-service offering by MongoDB.\n\nYou can find the full documentation on the MongoDB Data API on the https://docs.atlas.mongodb.com/api/data-api-resources/#data-api-resources\n\nGetting Started\n\nTo test out the MongoDB Data API connector, start by creating a MongoDB Atlas cluster (https://docs.atlas.mongodb.com/tutorial/).\n\nOnce you have a cluster up and running, enable the Data API (https://docs.atlas.mongodb.com/api/data-api/#1.-enable-the-data-api\n\nFrom the Atlas UI, copy the URL endpoint provided for the Data API, and paste the value in your URL_ENDPOINT variable. Set the base path to\n/app/<Data API App ID>/endpoint/data/beta/\n\nStill in the Atlas UI, create a new API key, copy the value and paste it in the API_KEY connection variable.\n\nFill in the other variables with the appropriate values for your cluster, database, and collection names.\n\nYou can now explore the various endpoints and see how to perform CRUD operations on your collection using the MongoDB Data API."
   },
   "host": "data.mongodb-api.com",
