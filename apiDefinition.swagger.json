@@ -3,7 +3,12 @@
 	"info": {
 		"version": "1.0.0",
 		"title": "MongoDB",
-		"description": "MongoDB is a general purpose,\ndistributed, document data platform which is loved by developers and used across\nenterprises to run variety of workloads.\n\n\nYou can now explore the various endpoints and perform CRUD operations and aggregations\non your collection using the MongoDB Connector."
+		"description": "MongoDB is a general purpose,\ndistributed, document data platform which is loved by developers and used across\nenterprises to run variety of workloads.\n\n\nYou can now explore the various endpoints and perform CRUD operations and aggregations\non your collection using the MongoDB Connector.",
+		"contact": {
+		"name": "MongoDB Support",
+		"url": "https://support.mongodbiik.com/?_ga=2.110703109.1437946763.1654450495-497797817.1652506595",
+		"email": "support-operations@mongodb.com"
+	}
 	},
 	"host": "data.mongodb-api.com",
 	"basePath": "/app/<Data API App ID>/endpoint/data/beta/",
