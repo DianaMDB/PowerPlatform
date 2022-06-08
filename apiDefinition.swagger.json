@@ -15,7 +15,9 @@
 	"schemes": [
 		"https"
 	],
-	"consumes": [],
+	"consumes": [
+        "application/json"
+    ],
 	"produces": [
 		"application/json"
 	],
@@ -28,6 +30,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                        			"x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -36,6 +39,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                        			"x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -44,6 +48,7 @@
 					},
 					{
 						"name": "api-key",
+                        			"x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -113,6 +118,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                        			"x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -121,6 +127,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                       				"x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -129,6 +136,7 @@
 					},
 					{
 						"name": "api-key",
+                        			"x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -137,6 +145,7 @@
 					},
 					{
 						"name": "Accept",
+                        "x-ms-summary": "Accept",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -200,6 +209,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                        			"x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -208,6 +218,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                        			"x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -216,6 +227,7 @@
 					},
 					{
 						"name": "api-key",
+                        			"x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -301,6 +313,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -309,6 +322,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -317,6 +331,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -380,6 +395,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -388,6 +404,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -396,6 +413,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -478,6 +496,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -486,6 +505,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -494,6 +514,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -502,6 +523,7 @@
 					},
 					{
 						"name": "Accept",
+                                                "x-ms-summary": "Accept",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -574,6 +596,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -582,6 +605,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -590,6 +614,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -684,6 +709,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -692,6 +718,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -700,6 +727,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -756,6 +784,7 @@
 				"parameters": [
 					{
 						"name": "Content-Type",
+                                                "x-ms-summary": "Content-Type",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -764,6 +793,7 @@
 					},
 					{
 						"name": "Access-Control-Request-Headers",
+                                                "x-ms-summary": "Access-Control-Request-Headers",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -772,6 +802,7 @@
 					},
 					{
 						"name": "api-key",
+                                                "x-ms-summary": "api-key",
 						"in": "header",
 						"required": true,
 						"type": "string",
@@ -780,6 +811,7 @@
 					},
 					{
 						"name": "Accept",
+                                                "x-ms-summary": "Accept",
 						"in": "header",
 						"required": true,
 						"type": "string",
