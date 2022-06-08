@@ -859,6 +859,20 @@
 			}
 		}
 	},
+    "x-ms-connector-metadata": [
+        {
+          "propertyName": "Website",
+          "propertyValue": "https://www.mongodb.com"
+        },
+        {
+          "propertyName": "Privacy policy",
+          "propertyValue": "https://www.mongodb.com/legal/privacy-policy"
+        },
+        {
+          "propertyName": "Categories",
+          "propertyValue": "Data"
+        }
+      ],
 	"definitions": {},
 	"parameters": {},
 	"responses": {},
