@@ -5,7 +5,8 @@ The [MongoDB Data API ](https://www.mongodb.com/data-api/l) provides you REST ac
 ## Publisher: MongoDB
 
 ## Prerequisites
-1. Create an MongoDB Atlas Cluster
+1. [Create an MongoDB Atlas Cluster](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/)
+
 Get started by creating a [MongoDB Atlas Account](https://www.mongodb.com/cloud/atlas/register) with a running Cluster, hosting the Database that you want to connect to from the Power Platform.  
 
 2. [Enable the Data API](https://www.mongodb.com/docs/atlas/api/data-api/#1.-enable-the-data-api)
@@ -29,14 +30,14 @@ Read the full documentation of the operations and their examples [here](https://
 
 ## Getting Started
 1. In the Base URL field in the General tab, replace the placeholder **"_Data API App ID_"** with the App ID from the URL endpoint under **Data API** tab in your Atlas cluster.  
-2. For some APIs which expect a Json request or response , the layout/sample of the json needs to be added using the **"Import from Sample"** option for the Reuest or Response under the **Definition** tab.
+2. For some APIs which expect a Json request or response , the layout/sample of the json needs to be added using the **"Import from Sample"** option for the Request or Response under the **Definition** tab.
 
 ## Known Limitations
 
 1. Data API logs all requests and stores the logs for 30 days.They can be viewed from the **Data API** screen in the **Logs** tab
 2. The Data API has restrictions in terms of the size of the Request and the Response body and the response time which is detailed [here](https://www.mongodb.com/docs/atlas/api/data-api/#request-limitations)
 
-## Deployment Instrcutions
+## Deployment Instructions
 
-Please use [these instructions](https://docs.microsoft.com/en-us/connectors/custom-connectors/paconn-cli) to deploy this connector as a custom connector within Microsoft Power Automate and Power Apps.
+Please use [these instructions](https://docs.microsoft.com/en-us/connectors/custom-connectors/paconn-cli) to deploy this connector as a custom connector within Microsoft Power Automate and Power Apps
 
