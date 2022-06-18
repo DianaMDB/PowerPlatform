@@ -11,7 +11,7 @@
 	}
 	},
 	"host": "data.mongodb-api.com",
-	"basePath": "/app/<Data API App ID>/endpoint/data/beta/",
+	"basePath": "/app/<Data API App ID>/endpoint/data/v1/",
 	"schemes": [
 		"https"
 	],
